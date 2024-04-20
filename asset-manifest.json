@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96d25f35.css",
+    "main.js": "/static/js/main.66205ac1.js",
+    "static/media/ShumsImg1.jpeg": "/static/media/ShumsImg1.2ea182f7fb3492feddcd.jpeg",
+    "static/media/Cart.png": "/static/media/Cart.9866ef2331ab9e3e7900.png",
+    "static/media/ChatApp.png": "/static/media/ChatApp.d84a51dfb1e872000e03.png",
+    "static/media/SnakeImg.png": "/static/media/SnakeImg.60317e3414d05786272a.png",
+    "index.html": "/index.html",
+    "main.96d25f35.css.map": "/static/css/main.96d25f35.css.map",
+    "main.66205ac1.js.map": "/static/js/main.66205ac1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d25f35.css",
+    "static/js/main.66205ac1.js"
+  ]
+}
