@@ -1,5 +1,6 @@
 import ShumsImg from "./ShumsImg1.jpeg"
 import { Button } from "react-bootstrap"
+import { Link } from "react-scroll"
 
 export default function Intro() {
     return (
@@ -9,7 +10,9 @@ export default function Intro() {
                     <span className="lead">Hello,</span><br />
                     <span className="fw-bold mt-3 h1">I'm <span className="fw-bold text-warning">Shums</span> <br /> <span className="fw-bold mt-3">Junior Software Developer</span></span><br />
                     <span className="lead mt-3">A tech artisan weaving creativity into code, I craft digital symphonies, turning complex challenges into elegant solutions with a touch of innovation.</span><br />
-                    <Button variant="outline-secondary mt-3">Hire Me</Button>
+                    <Link to="contact">
+                        <Button variant="outline-secondary mt-3">Hire Me</Button>
+                    </Link>
                 </div>
                 <div className="col-md-6 text-center">
                     <img src={ShumsImg} alt="" className="img-fluid rounded" />
@@ -18,4 +21,3 @@ export default function Intro() {
         </div>
     )
 }
-    

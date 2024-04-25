@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import ShumsLogo from './Shumslogo.png';
 
 function Navbar1() {
     const [activeNavItem, setActiveNavItem] = useState(null);
@@ -18,7 +19,7 @@ function Navbar1() {
             <Container fluid>
                 <Navbar.Brand>
                     <Link to="intro">
-                        <img src="./Shumslogo.png" width="50" height="50" alt="Logo" />
+                        <img src={ShumsLogo} width="50" height="50" alt="Logo" />
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
