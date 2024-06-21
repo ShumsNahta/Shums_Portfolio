@@ -1,5 +1,5 @@
 import { Card } from 'antd';
-import CartImg from '../Assets/Cart.png';
+import ATMimg from '../Assets/ATM.png';
 import ChatImg from '../Assets/ChatApp.png';
 import SnakeImg from "../Assets/SnakeImg.png";
 
@@ -25,10 +25,10 @@ export default function Portfolio() {
                         className="mb-3"
                         hoverable
                         style={{ width: '90%', maxWidth: '300px' }}
-                        cover={<img alt="Cart App" src={CartImg} />}
+                        cover={<img alt="Cart App" src={ATMimg} />}
                     >
-                        <Meta title="Cart App" />
-                        <a className="text-warning" href="https://github.com/ShumsNahta/cart-app">https://github.com/ShumsNahta/cart-app</a>
+                        <Meta title="Bank Management System" />
+                        <a className="text-warning" href="https://github.com/ShumsNahta/bank-management-system">https://github.com/ShumsNahta/bank-management-system</a>
                     </Card>
                     <Card
                         className="mb-3"
