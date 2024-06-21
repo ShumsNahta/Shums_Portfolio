@@ -25,7 +25,7 @@ export default function Portfolio() {
                         className="mb-3"
                         hoverable
                         style={{ width: '90%', maxWidth: '300px' }}
-                        cover={<img alt="Cart App" src={ATMimg} />}
+                        cover={<img alt="BMS" src={ATMimg} />}
                     >
                         <Meta title="Bank Management System" />
                         <a className="text-warning" href="https://github.com/ShumsNahta/bank-management-system">https://github.com/ShumsNahta/bank-management-system</a>
