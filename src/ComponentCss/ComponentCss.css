@@ -33,3 +33,9 @@ body{
 .carousel-caption{
     color: #1c3c5b;
 }
+
+@media (max-width:600px){
+    .carousel-item{
+        height: 70vh;
+    }
+}

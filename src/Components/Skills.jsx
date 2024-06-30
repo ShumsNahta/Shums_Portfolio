@@ -8,13 +8,13 @@ export default function Skills() {
 
                 <Row gutter={[16, 16]} justify="center">
                     <Col xs={24} sm={12} lg={8}>
-                        <Card title="Core Java" bordered={false}>
-                            With a solid understanding of Core Java, I've achieved a two-star rating on Codechef and tackled over 100 questions on LeetCode. I possess practical expertise in Multithreading and the Collection framework, allowing me to develop efficient and scalable software solutions.
+                        <Card title="Java" bordered={false}>
+                            With a solid understanding of Java, I've achieved a two-star rating on Codechef and tackled over 100 questions on LeetCode. I possess practical expertise in Multithreading and the Collection framework, allowing me to develop efficient and scalable software solutions.
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} lg={8}>
-                        <Card title="React.js" bordered={false}>
-                            Proficient in React, I excel in building reusable UI components and managing data flow with state and props. Skilled in event handling, conditional rendering, and efficient list rendering. Familiar with React Hooks and the Context API for state management.
+                        <Card title="Java Database Connectivity (JDBC)" bordered={false}>
+                        I have developed strong proficiency in Java Database Connectivity (JDBC), which I applied in my bank management system project. This expertise enabled seamless integration between Java applications and relational databases, ensuring efficient data management.
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} lg={8}>
@@ -23,7 +23,17 @@ export default function Skills() {
                         </Card>
                     </Col>
                     <Col xs={24} sm={12} lg={8}>
-                        <Card title="SQL" bordered={false}>
+                        <Card title="React.js" bordered={false}>
+                            Proficient in React, I excel in building reusable UI components and managing data flow with state and props. Skilled in event handling, conditional rendering, and efficient list rendering. Familiar with React Hooks and the Context API for state management.
+                        </Card>
+                    </Col>
+                    <Col xs={24} sm={12} lg={8}>
+                        <Card title="Node.js" bordered={false}>
+                        I have acquired expertise in Node.js, leveraging its asynchronous capabilities to build scalable and high-performance applications. My experience includes developing server-side solutions that efficiently handle multiple client requests.
+                        </Card>
+                    </Col>
+                    <Col xs={24} sm={12} lg={8}>
+                        <Card title="MySQL" bordered={false}>
                             Skilled in Oracle Database administration using SQL Plus 10g for effective management. Proficient in DDL, DML, DCL, DQL, and TCL operations. Expertise in SQL functionalities such as Grouping, Functions, sub-queries, and Joins.
                         </Card>
                     </Col>

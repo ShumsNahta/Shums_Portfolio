@@ -3,7 +3,6 @@ import ChatImg from '../Assets/ChatApp.png';
 import SnakeImg from "../Assets/SnakeImg.png";
 import TodoImage from '../Assets/TodoImg.png';
 import ShumsPortImg from '../Assets/ShumsPortImg.png'
-import CartImg from '../Assets/Cart.png'
 
 export default function Portfolio() {
 
