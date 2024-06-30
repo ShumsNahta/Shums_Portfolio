@@ -11,7 +11,7 @@ export default function Intro() {
                     <span className="fw-bold mt-3 h1">I'm <span className="fw-bold text-primary">Shums</span> <br /> <span className="fw-bold mt-3">Software Developer</span></span><br />
                     <span className="lead mt-3">A tech artisan weaving creativity into code, I craft digital symphonies, turning complex challenges into elegant solutions with a touch of innovation.</span><br />
                     <Link to="contact">
-                        <Button variant="outline-secondary mt-3 text-white bg-primary">Hire Me</Button>
+                        <Button variant="outline-none mt-3 text-white bg-primary">Hire Me</Button>
                     </Link>
                 </div>
                 <div className="col-md-6 text-center">

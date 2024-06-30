@@ -62,7 +62,7 @@ function Navbar1() {
                     <Nav>
                         <Nav.Link>
                             <Link to='contact'>
-                                <Button ref={sectionRef} variant="outline-secondary bg-primary text-white">Contact Me</Button>
+                                <Button ref={sectionRef} variant="outline-none bg-primary text-white">Contact Me</Button>
                             </Link>
                         </Nav.Link>
                     </Nav>

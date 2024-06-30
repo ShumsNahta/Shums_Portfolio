@@ -4,6 +4,9 @@ body{
 
 .carousel-inner{
     overflow-y: hidden;
+    border: 20px solid #84c2ff;
+    border-style: outset;
+    border-radius: 20px;
 }
 
 .carousel-item{
@@ -15,4 +18,18 @@ body{
     height: 100%;
     width: 100%;    
     overflow: hidden;
+    opacity: 0.2;
+}
+
+.carousel-indicators li {
+    background-color: #a5d2ff;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert();
+    opacity: 0.4;   
+}
+
+.carousel-caption{
+    color: #1c3c5b;
 }
