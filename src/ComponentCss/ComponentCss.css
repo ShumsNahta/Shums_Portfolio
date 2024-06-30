@@ -1,22 +1,24 @@
-body{
+body {
+    box-sizing: border-box;
+    padding: 0;
     overflow-x: hidden;
 }
 
-.carousel-inner{
+.carousel-inner {
     overflow-y: hidden;
     border: 20px solid #84c2ff;
     border-style: outset;
     border-radius: 20px;
 }
 
-.carousel-item{
+.carousel-item {
     height: 80vh;
     width: 90vw;
 }
 
-.SlideImage{
+.SlideImage {
     height: 100%;
-    width: 100%;    
+    width: 100%;
     overflow: hidden;
     opacity: 0.2;
 }
@@ -25,20 +27,41 @@ body{
     background-color: #a5d2ff;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     filter: invert();
-    opacity: 0.4;   
+    opacity: 0.4;
 }
 
-.carousel-caption{
+.carousel-caption {
     color: #1c3c5b;
 }
 
-@media (max-width:600px){
-    body{
+@media (max-width:600px) {
+    .carousel-item {
+        height: 55vh;
+    }
+
+    .ContactForm{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    html,
+    body {
         overflow-x: hidden;
     }
-    .carousel-item{
-        height: 55vh;
+
+    img,
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
 }
