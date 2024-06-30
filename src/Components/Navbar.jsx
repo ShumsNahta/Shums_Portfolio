@@ -31,7 +31,7 @@ function Navbar1() {
                                 smooth={true}
                                 offset={-100}
                                 duration={500}
-                                className={`nav-link ${activeNavItem === 'intro' ? 'text-warning' : ''}`}
+                                className={`nav-link ${activeNavItem === 'intro' ? 'text-primary' : ''}`}
                                 onClick={handleClick}>
                                 Intro
                             </Link>
@@ -42,7 +42,7 @@ function Navbar1() {
                                 smooth={true}
                                 offset={-100}
                                 duration={500}
-                                className={`nav-link ${activeNavItem === 'skills' ? 'text-warning' : ''}`}
+                                className={`nav-link ${activeNavItem === 'skills' ? 'text-primary' : ''}`}
                                 onClick={handleClick}>
                                 Skills
                             </Link>
@@ -53,7 +53,7 @@ function Navbar1() {
                                 smooth={true}
                                 offset={-100}
                                 duration={500}
-                                className={`nav-link ${activeNavItem === 'portfolio' ? 'text-warning' : ''}`}
+                                className={`nav-link ${activeNavItem === 'portfolio' ? 'text-primary' : ''}`}
                                 onClick={handleClick}>
                                 Portfolio
                             </Link>
@@ -62,7 +62,7 @@ function Navbar1() {
                     <Nav>
                         <Nav.Link>
                             <Link to='contact'>
-                                <Button ref={sectionRef} variant="outline-secondary">Contact Me</Button>
+                                <Button ref={sectionRef} variant="outline-secondary bg-primary text-white">Contact Me</Button>
                             </Link>
                         </Nav.Link>
                     </Nav>

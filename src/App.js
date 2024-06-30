@@ -1,4 +1,5 @@
-import "./App.css"
+// import "./App.css"
+import './ComponentCss/ComponentCss.css'
 import { BrowserRouter } from "react-router-dom";
 import Navbar1 from "./Components/Navbar";
 import Intro from "./Components/Intro";

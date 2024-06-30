@@ -25,8 +25,8 @@ const Contact = () => {
     return (
         <>
             <div className="text-center bg-body-tertiary" id='contact'>
-                <h1 className="h1 fw-bold pt-5">Contact <span className="text-warning">Me</span></h1>
-                <p className="text-justify p-1" style={{ fontWeight: "100", fontSize: "14px" }}>Please fill out the form below to discuss any work opportunities</p>
+                <h1 className="h1 fw-bold pt-5">Contact <span className="text-primary">Me</span></h1>
+                <p className="text-center p-1" style={{ fontWeight: "100", fontSize: "14px" }}>Please fill out the form below to discuss any work opportunities</p>
             </div>
             <div className='bg-body-tertiary d-flex justify-content-center p-3' style={{ marginTop: "-20px" }}>
                 <form onSubmit={sendEmail} className='w-100 max-w-75' ref={form}>
@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="mb-3 d-flex justify-content-center">
-                        <Button type="primary" htmlType="submit" style={{ backgroundColor: "#ffc107" }}>
+                        <Button type="primary text-white bg-primary" htmlType="submit">
                             Submit
                         </Button>
                     </div>

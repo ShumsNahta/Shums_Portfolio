@@ -3,8 +3,8 @@ export default function Skills() {
     return (
         <>
             <div className="text-center bg-body-tertiary" id='skills'>
-                <h1 className="h1 fw-bold">Skills I <span className="text-warning">possess</span></h1>
-                <p className="text-justify p-2">Hello! I'm Shums Nahta, an entry-level software engineer passionate about building innovative solutions. With a strong foundation in Core Java and expertise in modern technologies like JavaScript, React.js, and Bootstrap, I bring creativity and efficiency to my projects. Proficient in managing APIs with Swagger and collaborating seamlessly with teams using Trello and Bitbucket, I am adept at delivering high-quality software solutions. My experience with databases like MySQL and version control systems like GitHub ensures the reliability and scalability of my work. With a keen eye for detail and a commitment to continuous learning, I'm eager to contribute to exciting projects and further enhance my skills in the dynamic field of software engineering.</p>
+                <h1 className="h1 fw-bold">Skills I <span className="text-primary">possess</span></h1>
+                <p className="text-center p-2">Hello! I'm Shums Nahta, an entry-level software engineer passionate about building innovative solutions. With a strong foundation in Core Java and expertise in modern technologies like JavaScript, React.js, and Bootstrap, I bring creativity and efficiency to my projects. Proficient in managing APIs with Swagger and collaborating seamlessly with teams using Trello and Bitbucket, I am adept at delivering high-quality software solutions. My experience with databases like MySQL and version control systems like GitHub ensures the reliability and scalability of my work. With a keen eye for detail and a commitment to continuous learning, I'm eager to contribute to exciting projects and further enhance my skills in the dynamic field of software engineering.</p>
 
                 <Row gutter={[16, 16]} justify="center">
                     <Col xs={24} sm={12} lg={8}>
