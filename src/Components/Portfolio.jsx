@@ -24,47 +24,52 @@ export default function Portfolio() {
                             <div className="carousel-item active">
                                 <a href="https://github.com/ShumsNahta/todo-list" target='_blank'>
                                     <img className="SlideImage" src={TodoImage} alt="First slide" />
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-md-block">
                                         <h5 style={{ textDecoration: "underline" }}>Todo List</h5>
                                         <p>Designed and implemented the user interface using React and Bootstrap. Developed interactive components with React-Bootstrap for a seamless user experience. Managed state and component logic with JavaScript. Received positive feedback for user-friendly interface and functionality. mproved task management efficiency for users by 30%.</p>
+                                        <p><b>(Kindly click on the project you want to visit on github !)</b></p>
                                     </div>
                                 </a>
                             </div>
                             <div className="carousel-item">
                                 <a href="https://github.com/ShumsNahta/bank-management-system" target='_blank'>
                                     <img className="SlideImage" src={ATMimg} alt="Second slide" />
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-md-block">
                                         <h5 style={{ textDecoration: "underline" }}>Bank Management System</h5>
                                         <p>Prepared a comprehensive Bank Management System using Java, featuring a user-friendly GUI implemented with Swing. The system facilitates the entire customer onboarding process, managing the submission of personal details, validating data inputs, and
                                             guiding users through multiple signup stages swiftly, with an average processing time of under 5 minutes per user.</p>
+                                            <p><b>(Kindly click on the project you want to visit on github !)</b></p>
                                     </div>
                                 </a>
                             </div>
                             <div className="carousel-item">
                                 <a href="https://github.com/ShumsNahta/shumsportfolio" target='_blank'>
                                     <img className="SlideImage slide" src={ShumsPortImg} alt="Third slide" />
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-md-block">
                                         <h5 style={{ textDecoration: "underline" }}>Personal Portfolio</h5>
                                         <p>Showcased projects, skills, and experiences effectively by integrating modern UI components for an enhanced user experience. Ensured cross-browser compatibility and optimized performance. Demonstrated proficiency in front-end development and design principles. Created a dynamic, user-friendly portfolio that highlights professional achievements and technical skills through interactive elements,
                                             ensuring an engaging experience for potential employers and clients while adhering to the latest web standards and trends.</p>
+                                            <p><b>(Kindly click on the project you want to visit on github !)</b></p>
                                     </div>
                                 </a>
                             </div>
                             <div className="carousel-item">
                                 <a href="https://github.com/ShumsNahta/snake-game" target='_blank'>
                                     <img className="SlideImage slide" src={SnakeImg} alt="Third slide" />
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-md-block">
                                         <h5 style={{ textDecoration: "underline" }}>Snake Game</h5>
                                         <p>This is a classic Snake game built using React. Players control a snake that grows in length as it consumes food while avoiding collisions with the walls or itself. The game features smooth controls and progressively increases in difficulty as the snake grows longer and moves faster.</p>
+                                        <p><b>(Kindly click on the project you want to visit on github !)</b></p>
                                     </div>
                                 </a>
                             </div>
                             <div className="carousel-item">
                                 <a href="https://github.com/ShumsNahta/Real-Time-Chat-App" target='_blank'>
                                     <img className="SlideImage slide" src={ChatImg} alt="Third slide" />
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-md-block">
                                         <h5 style={{ textDecoration: "underline" }}>Chap Application</h5>
                                         <p>This application works same as a real time chat application.Multiple users can connect and interact with each other using this application. I used Node.js for rendering this app on the webpage and Socket.io for two-way communication. This project is yet to be completed, I still have to build a relative structure of a real time chat application.</p>
+                                        <p><b>(Kindly click on the project you want to visit on github !)</b></p>
                                     </div>
                                 </a>
                             </div>

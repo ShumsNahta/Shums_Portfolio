@@ -41,9 +41,19 @@ body {
     .carousel-item {
         height: 55vh;
     }
+}
 
-    .ContactForm{
-        width: 100vw;
+@media (max-width: 770px) {
+    #carouselExampleIndicators .carousel-caption {
+        font-size: 0.4em;
+    }
+
+    #carouselExampleIndicators .carousel-caption h5 {
+        font-size: 1em;
+    }
+
+    #carouselExampleIndicators .carousel-caption p {
+        font-size: 0.9em;
     }
 }
 
@@ -59,6 +69,7 @@ body {
         max-width: 100%;
         height: auto;
     }
+
     .container {
         width: 100%;
         padding: 0 15px;
